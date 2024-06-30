@@ -34,9 +34,6 @@ Run the application:
 
 Run Main.java as a Java application.
 The console will display options to generate or scan QR codes and start the web server.
-Accessing the Web Server:
-
-The server runs on port 8080. Open a web browser and navigate to http://localhost:8080/?accessCode=YOUR_ACCESS_CODE to view a patient report.
 Usage
 Generate QR Code:
 
