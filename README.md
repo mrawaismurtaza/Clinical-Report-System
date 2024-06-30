@@ -23,9 +23,6 @@ Main.java: Provides a console-based interface for the system.
 Running the Application
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-repository/patient-report-system.git
 cd patient-report-system
 Open the project in Eclipse:
 
