@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .report-text {
+            font-size: 1em;
+            margin-bottom: 20px;
+            white-space: pre-wrap; /* Preserve whitespace and line breaks */
+        }
+        .image-link img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        .qr-code img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Patient Report</h1>
+        <p><strong>Patient ID:</strong> [PATIENT_ID]</p>
+        <p><strong>Date:</strong> [DATE]</p>
+        <p class="report-text"><strong>Report Text:</strong> [REPORT_TEXT]</p>
+        <div class="image-link">
+            <p><strong>Image Link:</strong></p>
+            <img src="[IMAGE_LINK]" alt="Report Image">
+        </div>
+        <p><strong>Access Code:</strong> [ACCESS_CODE]</p>
+        <div class="qr-code">
+            <p><strong>QR Code:</strong></p>
+            <img src="[QR_CODE_URL]" alt="QR Code">
+        </div>
+    </div>
+</body>
+</html>

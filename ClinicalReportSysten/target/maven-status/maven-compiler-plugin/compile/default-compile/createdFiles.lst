@@ -1,0 +1,5 @@
+com\example\patientreport\Main.class
+com\example\patientreport\QRCodeGenerator.class
+com\example\patientreport\ReportRepository.class
+com\example\patientreport\QRCodeScanner.class
+com\example\patientreport\Report.class
